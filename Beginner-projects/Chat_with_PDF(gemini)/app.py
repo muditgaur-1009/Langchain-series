@@ -39,8 +39,8 @@ def get_vector_store(text_chunks):
 def get_conversational_chain():
 
     Prompt_template="""
-    Answer the question as detailed as possible from yhe provieded context,make sure to provide all ythe details
-    ,if the answer is not avaiable in the context,don't provide wrong answer\n\n
+    suppose yoou are my HR now Answer the question as detailed as possible from yhe provieded context,make sure to provide all ythe details
+    \n\n
     Context:\n{context}?\n
     Question:\n{question}\n
 
